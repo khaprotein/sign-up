@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background: url(/js/dn_dk/pexels-juan-agustin-2340254.jpg);
+    background-size: 300px 300px  ;
+
+}
+
+body{
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 20xp;
+    align-items: center;
+
+}
+/* sign in */
+.login{
+    align-items: center;
+    height: 370px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 20%;
+    padding: 20px;
+    list-style-type: none; 
+}
+.login .l_header{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+.login form{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+.login form div input{
+    border-radius: 100px;
+    border: 1px solid blue;
+    text-align: center;
+    color: bisque;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+}
+.login form div input:nth-last-child(1){
+    position: relative;
+}
+.login form div a{
+    position: absolute;
+    text-decoration: none;
+    color: brown;
+    float: right;
+    left: 60%;
+}
+.login form div a:hover{
+    color: rgb(80, 116, 116);
+}
+.login form div #btnlogin{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    margin-left: 11% ;
+    top: 65%;  
+ }
+
+
+/* sign up */
+.main{
+    align-items: center;
+    height: 460px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10%;
+    padding: 20px;
+    list-style-type: none;
+}
+.main .header{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+.main form{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+.main form div input{
+    border-radius: 100px;
+    border: 1px solid blue;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+}
+
+main form div input:nth-last-child(1){
+    position: relative;
+}
+.main form div a{
+    position: absolute;
+    text-decoration: none;
+    color: brown;
+    float: right;
+    left: 60%;
+}
+
+.main form div a:hover{
+    color: rgb(80, 116, 116);
+    transform: scale(1.1);
+}
+
+.main form div #btnSignup{
+   text-align: center;
+   background-color: brown;
+   border: none;
+   color: white;
+   width: 100px;
+   height: 40px;
+   border-radius: 40px;
+   position: absolute;
+   margin-left: 11% ;
+   top: 70%;  
+}
+.main form div #btnSignup:hover{
+    transform: scale(1.1);
+    color: antiquewhite;
+}
